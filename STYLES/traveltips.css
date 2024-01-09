@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: 'arial','verdana','san-serif';
+}
+
+body{
+    margin: 0;
+    max-width: auto;
+    max-height: auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+}
+
+#wbname a:link {
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(106, 75, 193) 0%, rgb(45, 170, 215) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+nav{
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover{
+    background-color: #f0f0f0;
+}
+
+.card,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+transition: 0.1s;
+width: 45%;
+margin: 20px auto; /* Center horizontally */
+/* ... rest of the styles ... */
+}			
+.card:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover,
+.card7:hover,
+.card8:hover
+{	  
+box-shadow: 0 8px 16px 0 rgba(0,0,0,2);
+}
