@@ -686,3 +686,11 @@ body {
 .credits a:hover {
   text-decoration: underline;
 }
+
+footer {
+  text-align: center;
+}
+
+.footer {
+  font-size: 16px;
+}

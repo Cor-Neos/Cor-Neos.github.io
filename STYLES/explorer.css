@@ -222,3 +222,7 @@ nav a:hover{
 footer {
     text-align: center;
 }
+
+.footer {
+    font-size: 16px;
+}
