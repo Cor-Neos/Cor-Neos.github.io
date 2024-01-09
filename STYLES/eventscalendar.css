@@ -674,23 +674,11 @@ body {
   padding: 10px;
   font-size: 12px;
   color: #fff;
-  background-color: #b38add;
+  background-color: white;
 }
 
-.credits a {
-  color: #fff;
+.credits p {
+  color: #000;
   text-decoration: none;
   font-weight: 600;
-}
-
-.credits a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-}
-
-.footer {
-  font-size: 16px;
 }
